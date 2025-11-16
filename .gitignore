@@ -1,20 +1,13 @@
-# Escludi TUTTI i file nella cartella archive (1) (incluse subfolder)
 data/archive (1)/
 data/archive (1)/**
 
-# Escludi eventuali checkpoint dei notebook (anche fuori da archive)
 .ipynb_checkpoints/
 data/archive (1)/.ipynb_checkpoints/
 
-# (Facoltativo) Escludi tutti i file CSV ovunque
 *.csv
-# ...ma puoi sbloccare file CSV piccoli di esempio con una regola dopo:
-# !data/small_example.csv
 
-# Altre cartelle di dati grosse
 data/
 
-# Escludi file temporanei, swap e sistema
 *.swp
 *.tmp
 .DS_Store
