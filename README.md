@@ -20,7 +20,3 @@ In particolare, i file usati sono: `movies.csv` e `ratings.csv`.
 3. Viene generata una lista iniziale di film da proporre all’utente per feedback (Sì/No).
 4. Dopo la selezione di **5 film che piacciono all’utente**, il sistema crea una lista finale di **10 raccomandazioni** basata sia sulla personalità che sui generi dei film scelti.
 
----
-
-* I dati dell’utente vengono salvati localmente nei file `output/profilo_utente.json`, `output/final_recommendations.csv` e `output/feedback.csv`.
-* Non è richiesta alcuna registrazione o invio dati online.
